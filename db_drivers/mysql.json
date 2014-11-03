@@ -1,0 +1,13 @@
+{
+	"_id": "5453654ff208d6c980c4a7f9",
+	"nameDriver": "mysql",
+	"dialect": "mysql",
+	"host": "localhost",
+	"port": "3306",
+	"database": "classicmodels",
+	"user": "root",
+	"password": "U2FsdGVkX19MFY5At4TLgZNVJ7ZWu+d4KMj5z4aFzg/CRcKz8+pV2hPloeIw5+A4KdU7zUPWvbHm5R1RoB3ajYo3nDgTE3sBStM7OSJD1wfKgldbMfRGu/FMXtul0co/fLjr1GM/lqA=",
+	"min": "1",
+	"max": "10",
+	"idleTimeoutMillis": "100"
+}
