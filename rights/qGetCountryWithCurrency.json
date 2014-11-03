@@ -1,0 +1,7 @@
+{
+	"_id": "54525b08fe4904302e593aa2",
+	"id": "DATAQUERY::qGetCountryWithCurrency",
+	"name": "qGetCountryWithCurrency",
+	"type": "DATAQUERY",
+	"description": "auto generated"
+}
