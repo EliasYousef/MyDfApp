@@ -1,0 +1,33 @@
+{
+	"_id": "542c5bb89a98479006a4966c",
+	"name": "user",
+	"rights": [
+		"DATAQUERY::q5DayWeather",
+		"DATAQUERY::qCityDetails",
+		"DATAQUERY::qCrudSelectAll",
+		"DATAQUERY::qCurrencyExchange",
+		"DATAQUERY::qCurrencyRatesJson",
+		"DATAQUERY::qCurrenyMapper",
+		"DATAQUERY::qFindMovie",
+		"DATAQUERY::qFlight",
+		"DATAQUERY::qGetCountries",
+		"DATAQUERY::qGetCountryByCurrency",
+		"DATAQUERY::qGetCountryWithCurrency",
+		"DATAQUERY::qGetOrders",
+		"DATAQUERY::qGetOrdersByName",
+		"DATAQUERY::qJobSearchDice",
+		"DATAQUERY::qMySqlGet",
+		"DATAQUERY::qNYTimes",
+		"DATAQUERY::qOpenWeatherAPI",
+		"DATAQUERY::qPopulationTrends",
+		"DATAQUERY::qPopulationTrends2",
+		"DATAQUERY::qSQLCrudAdd",
+		"DATAQUERY::qSQLcrudRemove",
+		"DATAQUERY::qSongSearch",
+		"DATAQUERY::qStateCity",
+		"DATAQUERY::qStatistics",
+		"DATAQUERY::qUsaStates"
+	],
+	"type": "",
+	"description": ""
+}
