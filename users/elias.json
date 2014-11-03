@@ -1,0 +1,17 @@
+{
+	"tenant": "PlayWith",
+	"login": "elias",
+	"roles": {
+		"list": [
+			"developer",
+			"admin",
+			"user"
+		],
+		"default": "user"
+	},
+	"email": "eyousef@hawk.iit.edu",
+	"type": "",
+	"lastName": "Yousef",
+	"firstName": "Elias",
+	"_id": "542c5bab9a98479006a4966b"
+}
