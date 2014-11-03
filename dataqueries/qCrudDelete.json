@@ -1,0 +1,59 @@
+{
+	"_id": "541b00532ff9c16c1e2cf863",
+	"appexpr": [],
+	"category": "",
+	"connector": "http",
+	"dependency": "",
+	"description": "",
+	"format": "json",
+	"lock": {
+		"status": "unlocked"
+	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"name": "qCrudDelete",
+	"ownerId": "",
+	"parameters": [
+		{
+			"name": "id",
+			"type": "",
+			"value": "217",
+			"operation": "eq"
+		}
+	],
+	"persistence": "none",
+	"postcode": [],
+	"precode": [],
+	"requestDate": "2014-10-31T11:21:00.875Z",
+	"selector": ":root",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"settings": {
+		"postrequestbody": {
+			"database": "",
+			"collection": ""
+		},
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.186/database/rm",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "CrudTest",
+			"collection": "Users"
+		}
+	},
+	"source": "db",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"MyDfApp": {
+			"last_action": "1415039090",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

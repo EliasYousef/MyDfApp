@@ -1,0 +1,53 @@
+{
+	"_id": "541b14802ff9c16c1e2cf86c",
+	"appexpr": [],
+	"category": "",
+	"connector": "http",
+	"dependency": "",
+	"description": "",
+	"format": "json",
+	"lock": {
+		"status": "unlocked"
+	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"name": "qCrudAdd",
+	"ownerId": "",
+	"parameters": [],
+	"persistence": "none",
+	"postcode": [],
+	"precode": [],
+	"requestDate": "2014-10-31T11:21:46.855Z",
+	"selector": ":root",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"settings": {
+		"postrequestbody": {
+			"database": "",
+			"collection": "",
+			"document": ""
+		},
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.186/database/put",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "CrudTest",
+			"collection": "Users"
+		}
+	},
+	"source": "db",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"MyDfApp": {
+			"last_action": "1415039090",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
