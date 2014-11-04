@@ -1,0 +1,19 @@
+{
+	"_id": "543c225b9839fe74190e6824",
+	"category": "",
+	"description": "",
+	"name": "WReadTweets",
+	"ownerId": "",
+	"requestDate": "2014-10-13T19:09:28.440Z",
+	"src": "{\n\t\"properties\": {\n\t\t\"title\": {\n\t\t\t\"label\": \"\",\n\t\t\t\"visible\": true,\n\t\t\t\"color\": \"\"\n\t\t},\n\t\t\"tools\": {\n\t\t\t\"color\": true,\n\t\t\t\"edit\": true,\n\t\t\t\"collapse\": true,\n\t\t\t\"fullscreen\": true,\n\t\t\t\"delete\": true\n\t\t},\n\t\t\"sortable\": true\n\t},\n\t\"definition\": [\n\t\t{\n\t\t\t\"id\": \"root\",\n\t\t\t\"type\": \"panel\",\n\t\t\t\"attributes\": {\n\t\t\t\t\"name\": {\n\t\t\t\t\t\"value\": \"pnlPanel1\"\n\t\t\t\t},\n\t\t\t\t\"controller\": {\n\t\t\t\t\t\"value\": \"WReadTweetsController\"\n\t\t\t\t},\n\t\t\t\t\"form\": {\n\t\t\t\t\t\"value\": \"WReadTweetsForm\"\n\t\t\t\t},\n\t\t\t\t\"model\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"useModel\": {\n\t\t\t\t\t\"value\": false\n\t\t\t\t},\n\t\t\t\t\"collapsible\": {\n\t\t\t\t\t\"value\": false\n\t\t\t\t},\n\t\t\t\t\"classes\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"style\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"display\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"titleVisible\": {\n\t\t\t\t\t\"value\": false\n\t\t\t\t},\n\t\t\t\t\"rows\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"classes\": \"\",\n\t\t\t\t\t\t\"width\": \"12\",\n\t\t\t\t\t\t\"panelColumns\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"classes\": \"\",\n\t\t\t\t\t\t\t\t\"width\": \"12\"\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"children\": [\n\t\t\t\t{\n\t\t\t\t\t\"id\": 76358,\n\t\t\t\t\t\"type\": \"datagrid\",\n\t\t\t\t\t\"attributes\": {\n\t\t\t\t\t\t\"name\": {\n\t\t\t\t\t\t\t\"value\": \"gridDataGrid1\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"propertyData\": {\n\t\t\t\t\t\t\t\"value\": \"results\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"title\": {\n\t\t\t\t\t\t\t\"value\": \"My Tweets\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"titleVisible\": {\n\t\t\t\t\t\t\t\"value\": true\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"display\": {\n\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"gridColumns\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"header\": \"Text\",\n\t\t\t\t\t\t\t\t\"width\": \"4\",\n\t\t\t\t\t\t\t\t\"property\": \"text\",\n\t\t\t\t\t\t\t\t\"type\": {\n\t\t\t\t\t\t\t\t\t\"tname\": \"text\",\n\t\t\t\t\t\t\t\t\t\"classes\": \"\",\n\t\t\t\t\t\t\t\t\t\"style\": \"\",\n\t\t\t\t\t\t\t\t\t\"callbackFunction\": \"\"\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"header\": \"Source\",\n\t\t\t\t\t\t\t\t\"width\": \"4\",\n\t\t\t\t\t\t\t\t\"property\": \"source\",\n\t\t\t\t\t\t\t\t\"type\": {\n\t\t\t\t\t\t\t\t\t\"tname\": \"text\",\n\t\t\t\t\t\t\t\t\t\"classes\": \"\",\n\t\t\t\t\t\t\t\t\t\"style\": \"\",\n\t\t\t\t\t\t\t\t\t\"callbackFunction\": \"\"\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"header\": \"created At\",\n\t\t\t\t\t\t\t\t\"width\": \"4\",\n\t\t\t\t\t\t\t\t\"property\": \"created_at\",\n\t\t\t\t\t\t\t\t\"type\": {\n\t\t\t\t\t\t\t\t\t\"tname\": \"text\",\n\t\t\t\t\t\t\t\t\t\"classes\": \"\",\n\t\t\t\t\t\t\t\t\t\"style\": \"\",\n\t\t\t\t\t\t\t\t\t\"callbackFunction\": \"\"\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t},\n\t\t\t\t\t\"children\": [],\n\t\t\t\t\t\"container\": \"row0-col0\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t]\n}",
+	"src_script": "// this line should not be removed\nvar WReadTweets = angular.module(\"WReadTweets\",[]);\n\nWReadTweets.controller( \"WReadTweetsController\", function( $scope ) {\n    var dq = new DataQuery( 'ReadTweets' );\ndq.execute().\n\tdone( function() {\n\t\t$scope.$apply(function() {\n\t\t\t$scope.results = dq.getData();\n\t\t});\n\t});\n\n\t\n});\n",
+	"src_styles": "",
+	"wtype": "visual",
+	"versioning": {
+		"MyDfApp": {
+			"last_action": "1415075062",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
